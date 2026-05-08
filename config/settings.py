@@ -92,7 +92,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 
-ROOT_URLCONF = 'crime_report_system.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
@@ -109,7 +109,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'crime_report_system.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
